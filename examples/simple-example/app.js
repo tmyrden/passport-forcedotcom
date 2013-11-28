@@ -151,7 +151,7 @@ app.get('/logout', function(req, res) {
     res.redirect('/login');
 });
 
-app.listen(3000);
+app.listen(5000);
 
 
 // Simple route middleware to ensure user is authenticated.
